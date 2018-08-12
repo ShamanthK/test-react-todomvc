@@ -1,5 +1,5 @@
 
-.todoListMain button {
+.todoList button {
   padding: 10px;
   font-size: 16px;
   margin: 10px;
@@ -9,7 +9,7 @@
   border: 2px solid #0066FF;
 }
 
-.todoListMain  input {
+.todoList  input {
   padding: 10px;
   font-size: 16px;
   border: 2px solid blue;
@@ -17,12 +17,18 @@
 }
 
 
-.todoListMain button:hover {
+.todoList button:hover {
   background-color: #003399;
   border: 2px solid #003399;
   cursor: pointer;
 }
 
+.App {
+  text-align: center;
+  height: 150px;
+  padding: 20px;
+  color: blue;
+}
 
 .App-header {
   background-color: #222;
@@ -39,7 +45,7 @@
   font-size: large;
 }
 
-.todoListMain .theList li {
+.todoList .theList li {
   padding: 10px;
   font-size: 16px;
   text-align: center;
@@ -67,7 +73,7 @@
 
 
 
-.todoListMain .theList li:hover  {
+.todoList .theList li:hover  {
   background-color: red;
   cursor: pointer;
 }

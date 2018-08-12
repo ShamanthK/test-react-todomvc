@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ToDoItem from './ToDoItem';
+import ToDoItem from '../Container/ToDoItem';
 
 
-class TodoFrom extends Component {
+class TodoMain extends Component {
 
 
   constructor(props) {
@@ -53,14 +53,14 @@ deleteItem(key) {
 
   render() {
     return (
-      <div className="todoListMain">
+      <div className="todoList">
 
           <form onSubmit={this.addItem}>
           <input ref={(a) => this._inputElement = a}
                 placeholder="Enter To-Do Item" autofocus="true">
         </input>
             <button type="submit">Add Item</button>
-            <div className="counter1">
+            <div>
          { this.state.items.length === 1 &&
            <button type="submit"><strong>{this.state.items.length}</strong> item</button>
          }
@@ -90,4 +90,4 @@ deleteItem(key) {
   }
 }
 
-export default TodoFrom;
+export default TodoMain;

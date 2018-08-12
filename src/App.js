@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Title from './Components/Title';
-import ToDoFrom from './Components/ToDoFrom';
+import ToDoMain from './Components/ToDoMain';
+
 import './styles/app.css';
 
 
@@ -11,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
       <Title />
-      <ToDoFrom />
+      <ToDoMain />
       </div>
     );
   }

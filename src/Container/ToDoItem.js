@@ -23,8 +23,8 @@ class ToDoItem extends Component {
   }
 
   render() {
-    var todoEntries = this.props.entries;
-    var listItems = todoEntries.map(this.createTasks);
+    var todoItems = this.props.entries;
+    var Items = todoItems.map(this.createTasks);
 
     return (
       <div>
@@ -33,7 +33,7 @@ class ToDoItem extends Component {
 
 
 
-          {listItems}
+          {Items}
 
       </ul>
       </div>
