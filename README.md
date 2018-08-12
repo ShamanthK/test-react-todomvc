@@ -30,3 +30,5 @@ To run the application,
 a) Clone or download the project from the repository.
 b) Open command line and navigate to the folder where the project is located.
 c) Type npm start to run the application.
+
+A file with screenshots of the App has been uploaded in this repository.
