@@ -1,0 +1,102 @@
+
+.todoListMain button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: blue;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+
+.todoListMain  input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid blue;
+  width: 165px;
+}
+
+
+.todoListMain button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.todoListMain .theList li {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  width: 400px;
+  color: white;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+ border: 1px solid white;
+  background-color: blue;
+/*  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+
+  /*transition: background-color .2s ease-out;*/
+}
+
+.Complete {
+
+  margin-right: auto;
+  margin-left: auto;
+/*  border: 1px solid blue; */
+  background-color: #ADD8E6;
+}
+
+
+
+.todoListMain .theList li:hover  {
+  background-color: red;
+  cursor: pointer;
+}
+
+.hoverbutton span
+{
+ display:none;
+ position:absolute;
+ align-items: center;
+}
+
+.hoverbutton:hover span
+{
+  display: inline-block;
+     /* float:left;  remove */
+  margin: 10px 10px 0 0;
+  padding: 5px 10px
+
+}
+
+.hoverbutton span input[type="button"]
+{
+ width:40px;
+ height:30px;
+ background-color:#ADD8E6;
+ border:none;
+ color:white;
+ font-weight:bold;
+ font-size:16px;
+
+
+}
