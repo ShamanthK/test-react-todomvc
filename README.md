@@ -1,3 +1,7 @@
+
+To-Do App with ReactJS
+
+
 This project implements a simple To-Do App using ReactJS.
 
 The folder structure is as follows:
